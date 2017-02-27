@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>jQuery Step function</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="jquery-ui.js"></script>
+  <script type='text/javascript' src='main.js'></script>
+</head>
+<body>
+  <div class="window window-product">
+   <div class="window-close">X</div>
+   <h6>Название</h6>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, laboriosam? Placeat quaerat delectus quas commodi temporibus excepturi totam molestias ea. Nulla aut explicabo suscipit. Maxime odit eligendi similique dolorum consectetur.</p>
+   <div id="add-cart" class="button">В корзину</div>
+ </div>
+ <div class="window window-login">
+   <div class="window-close">X</div>
+  <input type="" placeholder="admin" id="login" >
+  <input type="" placeholder="1234" id="password" >
+  <div class="enter button">Submit</div>
+</div>
+<div class="header">
+<p>Привет, admin</p>
+ <img src="images/logo.jpg">
+ <h1>Интернет-магазин свежих продуктов</h1>
+</div>
+
+<div class="customer">
+  <div class="account">
+
+    <div class="login">
+      Вход
+    </div>
+  <!--   <div class="login">
+      Регистация
+    </div> -->
+  </div>
+  <div class="clear"></div>
+  <div id="cart">
+    <img src="images/cart.png">
+    <div id="cart-dropdown">
+      <ul>
+
+      </ul>
+    </div>
+  </div>
+  <div class="clear"></div>
+
+</div>
+<div class="left-block">
+
+  <div id="filter">
+    <div class="filter-line">
+      <div class="type-list-item" data-type="fruit">fruit</div>
+      <div class="type-list-item" data-type="vegetable">vegetable</div>
+    </div>
+    <div class="filter-line">
+      <div class="colors-list-item" data-color="green">green</div>
+      <div class="colors-list-item" data-color="red">red</div>
+      <div class="colors-list-item" data-color="yellow">yellow</div>
+      <div class="colors-list-item" data-color="orange">orange</div>
+      <div class="colors-list-item" data-color="purple">purple</div>
+      <div id="clearFilter">Сбросить фильтры</div>
+    </div>
+
+  </div>
+  <div id="slider">
+    <h3>Лучшие товары</h3>
+    <div class="slider-container" >
+      <div class="slider-main" id="droppable">
+        <img src="images/veg1.jpg">
+        <img src="images/veg2.jpg">
+        <img src="images/veg3.jpg">
+        <img src="images/veg4.jpg">
+      </div>
+    </div>
+    <div class="dots">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+    <div class="navigation">
+      <!-- <div class="run button-grey">Запустить анимацию</div> -->
+      <div class="prev button-grey">prev</div>
+      <div class="next button-grey">next</div>
+      <!-- <div class="stop button-grey"> Оставновить анимацию</div> -->
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="item vegetable yellow">
+   <img src="images/veg1.jpg">
+   <p>Лук</p>
+ </div>
+ <div class="item vegetable yellow">
+  <img class='' src="images/veg2.jpg">
+  <p>Картошка</p>
+</div>
+<div class="item fruit yellow">
+  <img class="" class='' src="images/fr1.jpg">
+  <p>Ананас</p>
+</div>
+<div class="item fruit orange">
+ <img class="" src="images/fr2.jpg">
+ <p>Песик</p>
+</div>
+<div class="item vegetable green" >
+  <img  class=" " src="images/veg3.jpg">
+  <p>Капуста</p>
+</div>
+<div class="item fruit yellow">
+ <img  class="" src="images/fr3.jpg">
+ <p>Банан</p>
+</div>
+<div class="item vegetable green">
+ <img class="" src="images/veg4.jpg">
+ <p>Горох</p>
+</div>
+<div class="item  vegetable green">
+ <img class="" src="images/veg5.jpg">
+ <p>Брокколи</p>
+</div>
+<div class="item  fruit purple">
+ <img class="" src="images/fr4.jpg">
+ <p>Маракуйа</p>
+</div>
+<div class="item  fruit red">
+ <img class="" src="images/fr5.jpg">
+ <p>Черешня</p>
+</div> 
+<div class="item  fruit red">
+ <img  class=""  src="images/fr6.jpg">
+ <p>Клубника</p>
+</div>
+<div class="item  vegetable red">
+ <img  class=""  src="images/veg6.jpg">
+ <p>Перец</p>
+</div>
+<div class="item  vegetable purple">
+ <img  class="" src="images/veg7.jpg">
+ <p>Буряк</p>
+</div>
+<div class="item  vegetable orange">
+ <img class="" src="images/veg8.jpg">
+ <p>Морковь</p>
+</div>
+<div class="item  fruit green">
+ <img class="" src="images/fr7.jpg">
+ <p>Яблоко</p>
+</div>
+<div class="item  vegetable red">
+ <img class="" src="images/veg9.jpg">
+ <p>Помидор</p>
+</div>
+<div class="item  fruit green">
+ <img class="" src="images/fr8.jpg">
+ <p>Киви</p>
+</div>
+</div>
+</table>
+</body>
+</html>
