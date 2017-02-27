@@ -229,7 +229,7 @@ $('#add-cart').click(function(){
     localStorage.setItem('products', products);
 
     addItemToCartList(name);
-    $('window').fadeOut();
+    $('.window').fadeOut();
   }
 
 });
